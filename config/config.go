@@ -64,6 +64,7 @@ type Module struct {
 type ProviderConfig struct {
 	Name      string
 	Alias     string
+	Version   string
 	RawConfig *RawConfig
 }
 
